@@ -177,6 +177,8 @@ See the [LICENSE](LICENSE) file for details.
 - [ASL Numbers Dataset – Kaggle](https://www.kaggle.com/datasets/lexset/synthetic-asl-numbers)  
 - [TkinterDnD2 by pmgagne](https://sourceforge.net/projects/tkinterdnd/)
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!  
@@ -185,6 +187,8 @@ To propose a change:
 1. Open an issue to discuss your idea  
 2. Fork the repository  
 3. Submit a pull request
+
+---
 
 ## 👤 Author
 
