@@ -24,19 +24,20 @@ An end-to-end deep learning project for real-time American Sign Language (ASL) h
 ## 📦 Project Structure
 
 ```
-├── Model_Make.ipynb # Notebook for training the CNN model
-├── GUI.ipynb # Notebook for launching drag-and-drop GUI
-├── preprocess.py # Script to clean, resize, and structure dataset
-├── requirements.txt # List of dependencies
-├── asl_cnn_39class_cpu.pth # Saved trained model (PyTorch)
-├── Preprocessed_data/ # Folder with preprocessed images per class
-├── test/ # Folder with one test image per class
-├── images/ # Folder containing all images for README
-│ ├── gui1.png # GUI screenshot 1
-│ ├── gui2.png # GUI screenshot 2
-│ ├── model1.png # Confusion matrix
-│ ├── model2.png # Accuracy/loss plots
-└── README.md # Project documentation
+├── Model_Make.ipynb             # Notebook for training the CNN model
+├── GUI.ipynb                    # Notebook for launching drag-and-drop GUI
+├── preprocess.py                # Script to clean, resize, and structure dataset
+├── requirements.txt             # List of dependencies
+├── asl_cnn_39class_cpu.pth      # Saved trained model (PyTorch)
+├── Preprocessed_data/           # Folder with preprocessed images per class
+├── test/                        # Folder with one test image per class
+├── images/                      # Folder containing all images for README
+│   ├── gui1.png                 # GUI screenshot 1
+│   ├── gui2.png                 # GUI screenshot 2
+│   ├── model1.png               # Confusion matrix
+│   ├── model2.png               # Accuracy/loss plots
+├── Summary_PPT.pptx             # PowerPoint summarizing project workflow and results
+└── README.md                    # Project documentation
 
 ```
 
