@@ -24,18 +24,20 @@ An end-to-end deep learning project for real-time American Sign Language (ASL) h
 ## 📦 Project Structure
 
 ```
-├── Model_Make.ipynb           # Notebook for training the CNN model  
-├── GUI.ipynb                  # Notebook for launching drag-and-drop GUI  
-├── preprocess.py              # Script to clean, resize, and structure dataset  
-├── requirements.txt           # List of dependencies  
-├── asl_cnn_39class_cpu.pth    # Saved trained model (PyTorch)  
-├── Preprocessed_data/         # Folder with preprocessed images per class  
-├── test/                      # Folder with one test image per class  
-├── gui1.png                   # GUI screenshot 1  
-├── gui2.png                   # GUI screenshot 2  
-├── model1.png                 # Confusion matrix  
-├── model2.png                 # Accuracy/loss plots  
-└── README.md                  # Project documentation  
+├── Model_Make.ipynb # Notebook for training the CNN model
+├── GUI.ipynb # Notebook for launching drag-and-drop GUI
+├── preprocess.py # Script to clean, resize, and structure dataset
+├── requirements.txt # List of dependencies
+├── asl_cnn_39class_cpu.pth # Saved trained model (PyTorch)
+├── Preprocessed_data/ # Folder with preprocessed images per class
+├── test/ # Folder with one test image per class
+├── images/ # Folder containing all images for README
+│ ├── gui1.png # GUI screenshot 1
+│ ├── gui2.png # GUI screenshot 2
+│ ├── model1.png # Confusion matrix
+│ ├── model2.png # Accuracy/loss plots
+└── README.md # Project documentation
+
 ```
 
 ---
@@ -89,14 +91,16 @@ cd asl-gesture-recognition
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Preprocess the Dataset
+### 3️⃣ Preprocess the Dataset (Optional)
 
+Preprocessed data is already provided.
 ```bash
 python preprocess.py
 ```
 
-### 4️⃣ Train the CNN
+### 4️⃣ Train the CNN (Optional)
 
+To train a model from scratch:
 ```bash
 jupyter notebook Model_Make.ipynb
 ```
@@ -105,6 +109,9 @@ Run all cells to train and save the model as `asl_cnn_39class_cpu.pth`.
 
 ### 5️⃣ Launch the GUI
 
+The Preprocessed_data/ folder and pretrained model file asl_cnn_39class_cpu.pth are already included in the repository.
+
+You can skip training and directly test new images using the pretrained model:
 ```bash
 jupyter notebook GUI.ipynb
 ```
