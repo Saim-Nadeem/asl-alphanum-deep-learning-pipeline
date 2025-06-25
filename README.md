@@ -82,8 +82,8 @@ This project combines multiple datasets:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/asl-gesture-recognition.git
-cd asl-gesture-recognition
+git clone https://github.com/Saim-Nadeem/asl-alphanum-deep-learning-pipeline.git
+cd asl-alphanum-deep-learning-pipeline
 ```
 
 ### 2️⃣ Install Dependencies
