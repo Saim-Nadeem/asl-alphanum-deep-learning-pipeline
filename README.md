@@ -1,7 +1,11 @@
 # 🤟 ASL Hand Gesture Recognition
 
-**License:** MIT  
-**Built with:** Python · PyTorch · OpenCV · Tkinter GUI
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Built%20with-Python-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![OpenCV](https://img.shields.io/badge/Library-OpenCV-5C3EE8.svg?logo=opencv&logoColor=white)](https://opencv.org/)
+[![GUI](https://img.shields.io/badge/GUI-Tkinter-orange.svg)](https://wiki.python.org/moin/TkInter)
+
 
 An end-to-end deep learning project for real-time American Sign Language (ASL) hand gesture recognition. Includes image preprocessing, CNN training, evaluation metrics, and a drag-and-drop GUI for interactive predictions.
 
