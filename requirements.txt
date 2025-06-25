@@ -13,6 +13,7 @@ torchvision==0.18.0
 # GUI and drag-and-drop
 tkinterdnd2==0.3.0
 Pillow==10.3.0
+rembg==2.0.54
 
 # GUI backend support (ensure Tkinter is available in system)
 # Note: `tkinter` is part of the Python standard library but needs to be installed with your Python distro.
