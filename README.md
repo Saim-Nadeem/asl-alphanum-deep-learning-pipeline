@@ -37,7 +37,7 @@ An end-to-end deep learning project for real-time American Sign Language (ASL) h
 │   ├── model1.png               # Confusion matrix
 │   ├── model2.png               # Accuracy/loss plots
 ├── Summary_PPT.pptx             # PowerPoint summarizing project workflow and results
-└── README.md                    # Project documentatio
+└── README.md                    # Project documentation
 
 ```
 
